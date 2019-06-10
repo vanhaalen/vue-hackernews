@@ -7,26 +7,26 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test": "npm run lint && npm run test:unit",
-    "test:unit": "jest",
+    "test:unit": "vue-cli-service test:unit",
     "test:unit:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --no-cache --runInBand"
   },
   "dependencies": {
     "firebase": "^5.0.4",
-    "vue": "^2.5.18"
+    "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.4",
-    "@vue/cli-plugin-babel": "^3.0.0-beta.15",
-    "@vue/cli-plugin-eslint": "^3.0.0-beta.16",
-    "@vue/cli-service": "^3.0.0-beta.15",
-    "@vue/eslint-config-standard": "^3.0.0-beta.16",
-    "@vue/test-utils": "^1.0.0-beta.29",
-    "babel-core": "^6.26.3",
-    "babel-jest": "^24.8.0",
-    "cross-env": "^5.2.0",
-    "jest": "^24.8.0",
-    "vue-jest": "^3.0.4",
-    "vue-template-compiler": "^2.5.18"
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-plugin-unit-jest": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
     "root": true,
